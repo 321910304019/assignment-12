@@ -1,0 +1,132 @@
+
+In [1]:
+
+Dictionary A
+ dictionary is a collection 
+which is unordered, 
+changeable and indexed.
+ In Python dictionaries are 
+written with curly brackets, 
+and they have keys and values. 
+Example Create and print a 
+dictionary: thisdict =	
+{ "brand": "Ford", model": "Mustang", "year": 1964 }
+ print(thisdict) 
+
+In [2]:
+
+Dic1={1:12,2:10}
+ Dic2={3:31,4:40} 
+Dic3={5:55,6:62} 
+Dic4=dict() 
+for i in Dic1,Dic2,Dic3:
+ Dic4.update(i)
+ print(Dic4) 
+{1:12,2:10}
+{1:12,2:10,3:31,4:40}
+{1: 12, 2: 10, 3: 31, 4: 40, 5: 55, 6: 62} 
+
+In [3]:
+
+Tuple=(3,4,3) 
+print(Tuple) 
+
+(3,4,3) 
+
+In [4]:
+
+Dict1={1:15,2:33,3:57}
+ List=[] 
+List=list(Dict1.items())
+ print(List[0]) 
+
+(1, 15) 
+
+In [5]:
+
+Dict={1:"tree",2:"is",3:"good"} 
+for i in Dict: 
+print(i,Dict[i]) 
+
+1 tree
+ 2 is 
+3 good 
+
+In [6]:
+
+List=[2,4,{}] 
+print(List) 
+
+[2, 4, {}] 
+
+In [7]:
+
+List=[2,3,4,5,6] 
+Tuple=tuple(List) 
+print(Tuple) 
+
+(2,3,4,5,6) 
+
+In [8]:
+
+Tuple=(1,2,3,4,5,7,8,9)
+ print(Tuple[2:]) 
+print(Tuple[1:4])
+ print(Tuple[-6:-1]) 
+
+(3,4,5,7,8,9) 
+(2, 3, 4) 
+(3, 4, 5,7,8) 
+
+In [9]:
+
+Dict={1:2,2:24,3:35}
+ print(sum(Dict.values())) 
+61 
+
+In [10]:
+
+List=[1,4,5,7,8]
+ a=sum(List) 
+print(a) 
+25 
+
+In [11]:
+
+Tuple=(1,"gitam",2.56) 
+print(Tuple) 
+
+(1, 'gitam', 2.56) 
+
+In [12]:
+
+Tuple=(1,2,3,4,5)
+ print(len(Tuple)) 
+5
+
+In [13]:
+
+Tuple=(1,2,5,4,3) 
+Tuple1=tuple(reversed(Tuple))
+ print(Tuple1) 
+
+( 3,4,5,2,1) 
+
+In [14]:
+
+Tuple=("gitam","Bangalore")
+Name=''.join(Tuple) 
+print(Name) 
+print(type(Name)) 
+
+gitamBangalore 
+<class 'str'> 
+
+In [15]:
+
+Tuple=((1,"gitam"),(2,"bangalore"))
+ Dict=dict(Tuple)
+ print(Dict) 
+
+{1: 'gitam', 2: 'bangalore'}
+
